@@ -1,0 +1,112 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card {
+  justify-content: space-between;
+  background-color: rgb(127, 255, 212);
+  padding: 20px 20px;
+  font-size: 25px;
+}
+
+.product-item {
+  padding: 20px;
+}
+
+.productCart {
+  background-color: aqua;
+  border: none;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.productCart:hover {
+  transform: scale(1.4);
+}
+
+.back {
+  margin: 5px;
+}
+
+.back:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.cart:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.login {
+  background-color: rgb(61, 239, 239);
+  color: black;
+  border-color: rgb(50, 200, 250);
+  border-radius: 5px;
+  border-color: rgb(92, 225, 235);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.login:hover {
+  background-color: rgb(22, 227, 242);
+  transform: scale(1.2);
+}
+
+.home {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.home:hover {
+  color: rgb(5, 92, 222);
+}
+
+.form {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 15px;
+}
+
+input[type=text] {
+  width: 250px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border-style: hidden;
+  border-color: #3be8f8;
+  border-radius: 5px;
+}
+
+input[type=password] {
+  width: 250px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border-style: hidden;
+  border-color: #3be8f8;
+  border-radius: 5px;
+}
+
+.logout {
+  background-color: rgb(61, 239, 239);
+  color: black;
+  border-color: rgb(50, 200, 250);
+  border-radius: 5px;
+  border-color: rgb(92, 225, 235);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logout:hover {
+  background-color: rgb(22, 227, 242);
+  transform: scale(1.2);
+}
